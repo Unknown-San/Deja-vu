@@ -239,11 +239,6 @@ async def owo(client, inline_query):
                 InlineKeyboardButton(
                     text="Command Help", callback_data=f"make_cmd_buttons"
                 )
-            ],
-            [
-             InlineKeyboardButton(
-                    text="Restart UserBot", callback_data=f"restart_bot"
-                )
             ],  
             [
              InlineKeyboardButton(
@@ -253,11 +248,6 @@ async def owo(client, inline_query):
             [
              InlineKeyboardButton(
                     text="SyS Info", callback_data=f"sys_info"
-                )
-            ],
-            [
-             InlineKeyboardButton(
-                    text="Change UserBot Language", callback_data=f"change_lang"
                 )
             ],
         ]
